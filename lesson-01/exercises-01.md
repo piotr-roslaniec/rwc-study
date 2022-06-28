@@ -136,3 +136,9 @@ _Prepare an exercise related to serialization / deserialization_
 ## Ex 01-12
 
 _Explain and demonstrate the difference between cryptographic hash functions and checksum functions (CRC32)_
+
+Checksum functions such as CRC32 are error-detecting functions. They provide a way to check integrity of some input by comparing output with previously calculated "digest". 
+
+Their design goals don't include providing pre-image resistance or collision resistance, but rather prioritize speed and correctness of computation.
+
+Given that CRC32 output size is 32, the probability for any given two inputs to result in a collision is 1/2^{32}.
