@@ -41,7 +41,7 @@ _Missing_
 
 _Missing_
 
-## Ex 01-06
+## Ex 01-04
 
 _Explain and demonstrate how to calculates the Hamming Distance between two strings._
 
@@ -58,13 +58,13 @@ We can see that the strings have different bit positions at indexes 1 and 2
 
 So the Hamming distance between these two strings equals 2
 
-## Ex 01-07
+## Ex 01-05
 
 _What is the Hamming Distance between any bytestring hashes where i1 (unmodified) and i2 has 1 bit flipped._
 
 It equals one, becasue the string differes only at one position (one bit).
 
-## Ex 01-08
+## Ex 01-06
 
 _Explain and demonstrate the difference b/w Second Pre-Image Resistance and Collision Resistence._
 
@@ -76,7 +76,7 @@ Second Pre-Image Resistance describes a situation, where an attacker attempts to
 The second one describes a situation, where an attacker attempts to find two inputs that result in the same hash function output. This security property relies on the size of the output. If the output size is small then it's easier to enumerate and recover
 
 
-## Ex 01-09
+## Ex 01-07
 
 _Explain and demonstrate the calculation of ‘The Birthday Bound’ Paradox._
 
@@ -117,22 +117,22 @@ What we're really betting on is a situation where across all of these pairs we w
 And that's pretty close to 50%!
 
 
-## Ex 01-10
+## Ex 01-08
 
 _Find an input string which results in a SHA256 hash with 1/2/X 0’s (zero)_
 
-## Ex 01-11
+## Ex 01-09
 
 _Find X (look up, don’t over think it): md5(X).digest() > d41d8cd98f00b204e9800998ecf8427e_
 
-## Ex 01-12
+## Ex 01-10
 
 _Prepare an exercise related to XOR bitwise operations (compress/uncompress)_
 
-## Ex 01-13
+## Ex 01-11
 
 _Prepare an exercise related to serialization / deserialization_
 
-## Ex 01-14
+## Ex 01-12
 
 _Explain and demonstrate the difference between cryptographic hash functions and checksum functions (CRC32)_
