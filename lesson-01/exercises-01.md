@@ -33,13 +33,6 @@ Attempts: 146945470
 
 See `./ex03` for details
 
-## Ex 01-04
-
-_Missing_
-
-## Ex 01-05
-
-_Missing_
 
 ## Ex 01-04
 
